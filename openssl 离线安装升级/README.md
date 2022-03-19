@@ -10,13 +10,13 @@
 >
 > 3、openssl 依赖包 （目前已放到 lib 目录中，可自行下载）
 
-目前所有安装所需要的包和依赖都可去以下地址自行下载
+目前所有安装所需要的包和依赖都可去以下地址自行根据所对应软件进行下载
+
+[https://gitee.com/livekeys/linux-offline-installation-software.git](https://gitee.com/livekeys/linux-offline-installation-software.git)
 
 
 
-
-
-## 安装依赖
+## 一、安装依赖
 
 进入到依赖库 lib 中，执行以下命令进行依赖安装
 
@@ -28,7 +28,7 @@ yum -y localinstall *.rpm
 
 
 
-## 安装 openssl 
+## 二、安装 openssl 
 
 1、解压 openssl 文件
 
@@ -79,5 +79,5 @@ OpenSSL 3.0.2 15 Mar 2022 (Library: OpenSSL 3.0.2 15 Mar 2022)
 
 
 
-
+> 如有错误的地方，欢迎留言指正，谢谢！
 
